@@ -1,9 +1,11 @@
 id,name_or_group,role,category,interest,influence,interest_level,expectation
-S01,Head of the IT department,Sponsor,sponsor,TODO,H,H,TODO
-S02,TODO name,Project manager (supervising lecturer),pm,TODO,H,H,TODO
-S03,Student team (4),Developers and testers,team,TODO,M,H,TODO
-S04,Pilot students (50),End users,user,TODO,L,M,TODO
-S05,TODO,,,,,,
-S06,TODO,,,,,,
-S07,TODO,,,,,,
-S08,TODO,,,,,,
+S01,Head of the IT department,Sponsor,sponsor,a reusable quiz tool that saves marking time and shows the department innovates,H,H,A successful MVP demo in week 7 and a live pilot with 50 students in week 14 within the 200 USD cash budget cap.
+S02,Supervising lecturer,Project manager,pm,successful project delivery on schedule and on budget that meets learning outcomes,H,H,Active student participation and weekly status reports demonstrating steady progress through all 10 build phases.
+S03,Student team (4),Developers and testers,team,practical full-stack development experience and excellent capstone evaluation,M,H,Clear weekly sprint goals and timely feedback from the project manager and sponsor.
+S04,Pilot students (50),End users,user,an engaging and glitch-free live interactive quiz experience during class,L,M,A responsive web interface that reliably submits answers and displays scores instantly without disconnections.
+S05,Course instructors,End users,user,rapid quiz authoring and automated instant scoring that saves marking hours,M,H,An intuitive quiz editor and accurate export of session results to CSV and PDF formats after week 10.
+S06,IT operations (VPS admin),Runs gicitc.com hosting and backups,operations,no surprises at go-live with reliable runbooks and automated backup jobs,M,M,A comprehensive deployment checklist and docker-compose.prod.yml delivered two weeks before the pilot.
+S07,Campus network administrator,Manages campus network and proxy infrastructure,operations,network traffic that adheres to campus firewall policies without security issues,M,L,Prior notification and WebSocket fallback testing ensuring traffic does not disrupt campus proxy servers.
+S08,Data protection officer,Approves storage and handling of student data,governance,compliance with university privacy policies and student data protection regulations,H,L,A one-page data architecture and retention specification before the pilot showing that student data remains on campus servers.
+S09,Software Engineering lecturer,Capstone owner and academic evaluator,governance,adherence to engineering best practices with high code coverage and CI standards,H,M,A clean Git repository with passing CI pipelines and test coverage meeting or exceeding 80 percent.
+S10,Commercial quiz SaaS vendor,Alternative platform provider,external,commercial license sales to the university if build option fails,L,L,Formal inquiry for educational volume pricing if the internal build fails to clear the week-7 MVP gate.
